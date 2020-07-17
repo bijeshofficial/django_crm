@@ -20,5 +20,7 @@ urlpatterns = [
     path('', views.home, name = 'home'),
     path('products/', views.products, name= 'products'),
     path('customer/<int:pk>/', views.customer, name = 'customer'),
-    
+
+    path('order_form/', views.createOrder, name = 'order_form' ),
+    path('update_form/<int:pk>/', views.updateOrder, name = 'update_order' ),
 ]
