@@ -1,10 +1,11 @@
 {% extends 'accounts/base.html' %}
 {% load crispy_forms_tags %}
 {% block content %}
+<div class="cotainer">
+        <div class="row justify-content-center">
 
-<h1>registee</h1>
+<div class = 'content-section col-md-4' >
 
-<div class = 'content-section'>
     <form action="" method = "POST">
         {% csrf_token %}
         <fieldset class="form-group">
@@ -22,5 +23,7 @@
     <div class = "border-top pt-3">
         <small class = "text-muted"> Already Have an Account? <a class="ml-2" href="{% url 'login' %}">Sign In</a> </small>
     </div>
+</div>
+</div>
 </div>
 {% endblock content %}

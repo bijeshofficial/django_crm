@@ -2,16 +2,18 @@ body{
   background-color: #ebeff5;
 }
 
+
 #total-orders{
-  background-color: #4cbecc;
+  background-color: #4cb4c7;
 }
 
+
 #orders-delivered{
-  background-color: #4adecc;
+  background-color: #7abecc;
 }
 
 #orders-pending{
-  background-color: #7cd1c0;
+  background-color: #7CD1C0;
 }
 
 .content-section {
@@ -20,4 +22,7 @@ body{
   border: 1px solid #dddddd;
   border-radius: 3px;
   margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-around;
 }
+
